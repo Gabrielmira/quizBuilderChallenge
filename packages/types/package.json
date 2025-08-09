@@ -1,0 +1,17 @@
+{
+  "name": "@repo/types",
+  "version": "1.0.0",
+  "main": "dist/quizzes.js",
+  "types": "dist/quizzes.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "rimraf": "^5.0.0"
+  }
+}
